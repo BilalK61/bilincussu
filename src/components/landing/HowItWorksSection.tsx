@@ -37,9 +37,6 @@ export default function HowItWorksSection() {
                 </div>
 
                 <div className="mt-6 flex items-center justify-center gap-2.5 md:justify-start">
-                  <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-950 text-blue-400 border border-blue-900/50">
-                    <Icon className="h-4 w-4" />
-                  </div>
                   <h3 className="text-lg font-bold text-white">{item.title}</h3>
                 </div>
                 <p className="mt-3 text-sm leading-relaxed text-slate-400">{item.description}</p>

@@ -35,7 +35,7 @@ export default function Hero() {
                 Ücretsiz Demo İste
                 <ArrowRight className="h-4 w-4" />
               </a>
-              <a href="#portfolyo" className="rounded-xl border border-white/30 bg-transparent px-6 py-3 text-sm font-bold text-white transition hover:bg-white/10 hover:border-white/50 inline-flex items-center justify-center gap-2">
+              <a href="https://bilincussu.4pp.studio/" target="_blank" rel="noopener noreferrer" className="rounded-xl border border-white/30 bg-transparent px-6 py-3 text-sm font-bold text-white transition hover:bg-white/10 hover:border-white/50 inline-flex items-center justify-center gap-2">
                 Portföyü Gör
               </a>
             </div>
@@ -85,25 +85,6 @@ export default function Hero() {
                 </div>
               </div>
 
-              <div className="mr-8 rounded-xl border border-slate-100 bg-white p-4 shadow-sm shadow-slate-100">
-                <div className="flex items-start gap-3">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-blue-600 text-white text-xs font-bold shadow-sm">
-                    G
-                  </div>
-                  <div className="flex-1">
-                    <p className="text-sm font-semibold text-slate-900">Garanti BBVA Akademi</p>
-                    <p className="text-xs text-slate-500">Moodle tabanlı kurumsal LMS · 12.000+ kullanıcı</p>
-                    <div className="mt-2 flex flex-wrap gap-1.5">
-                      {["Moodle", "SCORM", "SSO", "Analitik"].map((tag) => (
-                        <span key={tag} className="rounded bg-blue-50/50 px-2 py-0.5 text-xs font-semibold text-blue-600 border border-blue-100/50">
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
-
               <div className="ml-8 rounded-xl border border-emerald-100 bg-emerald-50/40 p-4">
                 <div className="flex items-center gap-3">
                   <div className="flex h-8 w-8 items-center justify-center rounded-full bg-emerald-600 text-white">
@@ -111,7 +92,7 @@ export default function Hero() {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-emerald-900">Proje Teslim Edildi</p>
-                    <p className="text-xs text-emerald-700">Yeditepe Üniversitesi LMS — 4 ayda yayında</p>
+                    <p className="text-xs text-emerald-700">GT4T — 4 ayda yayında</p>
                   </div>
                 </div>
               </div>

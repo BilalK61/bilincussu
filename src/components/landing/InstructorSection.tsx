@@ -43,16 +43,31 @@ export default function InstructorSection() {
             </a>
           </ScrollReveal>
 
-          <ScrollReveal delayClass="animation-delay-200" className="grid grid-cols-2 gap-6">
+          <ScrollReveal delayClass="animation-delay-200" className="grid gap-6 sm:grid-cols-2">
             {[
-              { value: "54+", label: "Teslim edilen proje" },
-              { value: "180K+", label: "Aktif kullanıcı" },
-              { value: "7 yıl", label: "Sektör deneyimi" },
-              { value: "%97", label: "Müşteri memnuniyeti" },
-            ].map((stat) => (
-              <div key={stat.label} className="rounded-xl bg-white/5 border border-white/10 backdrop-blur-xs p-5 shadow-inner">
-                <p className="text-3xl font-bold">{stat.value}</p>
-                <p className="mt-1 text-sm text-blue-100 font-semibold">{stat.label}</p>
+              {
+                title: "Tamamen size ait",
+                desc: "Beyaz etiketli, kaynak koduna sahip olduğunuz bir platform. Vendor lock-in yok, veriler sizde kalır.",
+              },
+              {
+                title: "Kuruma özel geliştirme",
+                desc: "Hazır kalıplar değil; markanıza, süreçlerinize ve kullanıcılarınıza göre tasarlanan bir arayüz.",
+              },
+              {
+                title: "Uçtan uca entegrasyon",
+                desc: "Mevcut HR, ERP ve SSO/LDAP sistemlerinizle sorunsuz çalışan, birbirine bağlı bir ekosistem.",
+              },
+              {
+                title: "Kalıcı destek",
+                desc: "Teslimattan sonra 12 ay bakım, güncelleme ve teknik destek; her proje için atanmış bir yönetici.",
+              },
+            ].map((item) => (
+              <div key={item.title} className="rounded-xl bg-white/5 border border-white/10 backdrop-blur-xs p-6 shadow-inner">
+                <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 text-emerald-300 border border-white/10">
+                  <Check className="h-4.5 w-4.5" strokeWidth={2.5} />
+                </div>
+                <p className="text-lg font-bold text-white">{item.title}</p>
+                <p className="mt-1.5 text-sm leading-relaxed text-blue-100/90">{item.desc}</p>
               </div>
             ))}
           </ScrollReveal>

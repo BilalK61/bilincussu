@@ -44,12 +44,18 @@ export default function Navbar() {
             : "rounded-none border-slate-200/0 bg-white/0 px-0 py-4"
             }`}
         >
-          <Link href="/" className="flex shrink-0 items-center gap-2.5 pl-0.5">
-            <span className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-blue-600 to-blue-800 text-sm font-bold text-white shadow-sm">
-              B
-            </span>
-            <span className={`hidden text-base font-bold sm:inline tracking-tight transition-colors duration-300 ${isDarkTheme ? "text-white" : "text-slate-900"}`}>
-              Bilinç Üssü
+          <Link href="/" className="flex shrink-0 items-center gap-2 pl-0.5">
+            <img src="/logo-mark.svg" alt="Bilinç Üssü" className="h-10 w-auto object-contain" />
+            <span className="hidden flex-col leading-none sm:flex">
+              <span className={`text-base font-extrabold uppercase tracking-tight transition-colors duration-300 ${isDarkTheme ? "text-white" : "text-slate-900"}`}>
+                Bilinç{" "}
+                <span className={`transition-colors duration-300 ${isDarkTheme ? "text-blue-200" : "text-blue-600"}`}>
+                  Üssü
+                </span>
+              </span>
+              <span className={`mt-0.5 text-[11px] font-semibold tracking-tight transition-colors duration-300 ${isDarkTheme ? "text-blue-100/80" : "text-blue-600"}`}>
+                Kurumlar için LMS altyapısı
+              </span>
             </span>
           </Link>
 

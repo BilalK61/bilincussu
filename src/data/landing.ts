@@ -1,7 +1,7 @@
 export const moodleBenefits = [
   {
     title: "Kanıtlanmış altyapı",
-    description: "Dünya genelinde 400 milyondan fazla kullanıcıya hizmet veren, 20 yılı aşkın olgun LMS platformu.",
+    description: "Dünya genelinde 520 milyondan fazla kullanıcıya hizmet veren, olgun ve köklü bir açık kaynak LMS platformu.",
   },
   {
     title: "Açık kaynak güvencesi",
@@ -18,12 +18,12 @@ export const moodleBenefits = [
 ];
 
 export const sectors = [
-  { name: "Kurumsal Eğitim", description: "Şirket içi onboarding, uyumluluk ve yetenek geliştirme platformları.", gradient: "from-violet-500 to-purple-600", count: "18 proje" },
-  { name: "Yükseköğretim", description: "Üniversite ve yüksekokullara özel kampüs LMS entegrasyonları.", gradient: "from-blue-500 to-cyan-600", count: "7 proje" },
-  { name: "Bootcamp & Akademi", description: "Teknik eğitim akademileri ve bootcamp platformları.", gradient: "from-emerald-500 to-teal-600", count: "11 proje" },
-  { name: "Sağlık & Klinik", description: "Sağlık kuruluşları için sertifikasyon ve zorunlu eğitim sistemleri.", gradient: "from-rose-500 to-pink-600", count: "5 proje" },
-  { name: "Finans & Bankacılık", description: "Regülasyon uyumlu eğitim ve sertifikasyon altyapıları.", gradient: "from-amber-500 to-orange-600", count: "9 proje" },
-  { name: "Kamu & Belediye", description: "Kamu kurumları için uzaktan eğitim ve sertifika platformları.", gradient: "from-sky-500 to-blue-600", count: "4 proje" },
+  { name: "Kurumsal Eğitim", description: "Şirket içi onboarding, uyumluluk ve yetenek geliştirme platformları.", gradient: "from-violet-500 to-purple-600" },
+  { name: "Yükseköğretim", description: "Üniversite ve yüksekokullara özel kampüs LMS entegrasyonları.", gradient: "from-blue-500 to-cyan-600" },
+  { name: "Bootcamp & Akademi", description: "Teknik eğitim akademileri ve bootcamp platformları.", gradient: "from-emerald-500 to-teal-600" },
+  { name: "Sağlık & Klinik", description: "Sağlık kuruluşları için sertifikasyon ve zorunlu eğitim sistemleri.", gradient: "from-rose-500 to-pink-600" },
+  { name: "Finans & Bankacılık", description: "Regülasyon uyumlu eğitim ve sertifikasyon altyapıları.", gradient: "from-amber-500 to-orange-600" },
+  { name: "Kamu & Belediye", description: "Kamu kurumları için uzaktan eğitim ve sertifika platformları.", gradient: "from-sky-500 to-blue-600" },
 ];
 
 export const portfolioProjects = [
@@ -92,21 +92,21 @@ export const portfolioProjects = [
 
 export const testimonials = [
   {
-    name: "Selin Kaya",
-    role: "İnsan Kaynakları Direktörü — Garanti BBVA",
-    text: "Mevcut LMS'imiz ölçeklenemiyordu. Bilinç Üssü 4 ayda sıfırdan yeni platformumuzu kurdu, SSO entegrasyonunu çözdü ve şu an 12.000 çalışan aktif kullanıyor.",
+    name: "Eğitmen",
+    role: "Moodle Topluluğu",
+    text: "Moodle'ın en sevdiğim yanı, ihtiyacım olmayan özellikleri kullanmaya zorlamadan zengin bir araç seti sunması. İstediğiniz kadar sade ya da kapsamlı kullanabiliyorsunuz.",
     rating: 5,
   },
   {
-    name: "Ahmet Doğan",
-    role: "CTO — Bootcamp TR",
-    text: "Cohort yönetimi, canlı ders entegrasyonu ve ödev sistemi hepsini tek platformda istedik. Bilinç Üssü ne istediğimizi anladı, zamanında teslim etti.",
+    name: "Sistem Yöneticisi",
+    role: "Moodle Topluluğu",
+    text: "Açık kaynak olması en büyük avantaj. Ticari LMS'lere kıyasla hem çok daha uygun maliyetli hem de platform tamamen bizim kontrolümüzde kalıyor.",
     rating: 5,
   },
   {
-    name: "Prof. Dr. Mehtap Yıldız",
-    role: "Rektör Yardımcısı — Yeditepe Üniversitesi",
-    text: "ERP ile LMS entegrasyonu çok zor bir projeydi. Teknik yetkinlikleri ve proje yönetimleri bizim beklentilerimizin üzerindeydi.",
+    name: "Eğitim Teknoloğu",
+    role: "Moodle Topluluğu",
+    text: "Eklenti ekosistemi sayesinde neredeyse her ihtiyacı karşılayabiliyoruz. Üçüncü parti araçlarla entegrasyonu kolay ve topluluk desteği çok güçlü.",
     rating: 5,
   },
 ];

@@ -39,10 +39,10 @@ export default function Footer() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-5">
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2">
-              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-blue-600 to-blue-800 text-xs font-bold text-white shadow-sm">
-                B
+              <img src="/logo-mark.svg" alt="Bilinç Üssü" className="h-9 w-auto object-contain" />
+              <span className="font-bold uppercase text-white tracking-tight">
+                Bilinç <span className="text-blue-300">Üssü</span>
               </span>
-              <span className="font-bold text-white tracking-tight">Bilinç Üssü</span>
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-slate-400">
               Moodle tabanlı kurumsal LMS geliştirme ve eğitim teknolojisi ajansı.
@@ -88,7 +88,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Bilinç Üssü. Tüm hakları saklıdır.
           </p>
           <p className="text-sm text-slate-500">
-            İstanbul, Türkiye · hello@bilincussu.com
+            İstanbul, Türkiye · fatihkarakus563@gmail.com
           </p>
         </div>
       </div>

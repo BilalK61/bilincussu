@@ -1,0 +1,13 @@
+<svg viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GT4T LMS logo">
+  <g transform="rotate(45 320 320)">
+    <!-- 3D gölge / kalınlık -->
+    <g transform="translate(9,15)" fill="#0b7a2f">
+      <polygon points="96,96 544,96 544,544 208,544 208,320 320,320 320,432 432,432 432,208 96,208" />
+      <polygon points="544,544 96,544 96,96 432,96 432,320 320,320 320,208 208,208 208,432 544,432" />
+    </g>
+    <!-- yeşil kol -->
+    <polygon points="96,96 544,96 544,544 208,544 208,320 320,320 320,432 432,432 432,208 96,208" fill="#00c400" />
+    <!-- camgöbeği kol -->
+    <polygon points="544,544 96,544 96,96 432,96 432,320 320,320 320,208 208,208 208,432 544,432" fill="#00d8d8" />
+  </g>
+</svg>

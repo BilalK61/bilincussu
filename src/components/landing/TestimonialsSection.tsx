@@ -10,8 +10,8 @@ export default function TestimonialsSection() {
         <ScrollReveal>
           <SectionHeader
             label="Referanslar"
-            title="Müşterilerimiz ne diyor?"
-            subtitle="Kurumsal liderler ve teknik karar vericilerden gerçek geri bildirimler."
+            title="Moodle topluluğu ne diyor?"
+            subtitle="Üzerine inşa ettiğimiz Moodle platformu hakkında dünya genelindeki kullanıcılardan gerçek geri bildirimler."
           />
         </ScrollReveal>
 

@@ -19,8 +19,8 @@ export default function CTASection() {
             <div className="mt-8 space-y-4">
               {[
                 { icon: CalendarCheck, title: "Ücretsiz keşif görüşmesi", desc: "30 dakikalık teknik ihtiyaç analizi" },
-                { icon: Mail, title: "E-posta ile ulaşın", desc: "hello@bilincussu.com" },
-                { icon: Phone, title: "Telefon", desc: "+90 (212) 000 00 00" },
+                { icon: Mail, title: "E-posta ile ulaşın", desc: "fatihkarakus563@gmail.com" },
+                { icon: Phone, title: "Telefon", desc: "+90 530 513 98 94" },
               ].map(({ icon: Icon, title, desc }) => (
                 <div key={title} className="flex items-start gap-4">
                   <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-blue-50 text-blue-600 border border-blue-100/50 shadow-sm">

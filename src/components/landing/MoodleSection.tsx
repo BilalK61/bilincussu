@@ -60,10 +60,10 @@ export default function MoodleSection() {
 
         <ScrollReveal delayClass="animation-delay-300" className="mt-12 flex flex-wrap items-center justify-center gap-x-10 gap-y-4 rounded-xl border border-slate-200 bg-slate-50/50 px-6 py-5 text-center sm:justify-between sm:text-left">
           {[
-            { value: "400M+", label: "Dünya genelinde Moodle kullanıcısı" },
-            { value: "200+", label: "Ülkede aktif kurulum" },
-            { value: "2.000+", label: "Moodle eklentisi" },
-            { value: "20+ yıl", label: "Platform geçmişi" },
+            { value: "520M+", label: "Dünya genelinde Moodle kullanıcısı" },
+            { value: "236", label: "Ülkede aktif kullanım" },
+            { value: "146.000+", label: "Kayıtlı Moodle sitesi" },
+            { value: "1.500+", label: "Moodle eklentisi" },
           ].map((stat) => (
             <div key={stat.label}>
               <p className="text-xl font-bold text-slate-900">{stat.value}</p>

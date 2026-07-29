@@ -102,7 +102,6 @@ export default function CategoriesSection() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 sm:text-2xl">{activeSector.name}</h3>
-                    <p className="text-xs font-bold uppercase tracking-wider text-blue-600 mt-0.5">{activeSector.count}</p>
                   </div>
                 </div>
               </div>
